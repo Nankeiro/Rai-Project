@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ginga Sengoku Gun'yūden Rai - Universo Fan</title>
+    <style>
+        :root {
+            /* AQUÍ CAMBIAS LOS COLORES DE LA WEB */
+            --bg-color: #0b0f19;
+            --card-bg: #141a29;
+            --accent: #ffcc00; /* Color dorado para menús y títulos */
+            --text: #d1d5db;
+            --text-light: #ffffff;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        header {
+            /* CAMBIO DE IMAGEN DE FONDO (Puedes cambiar el link de Unsplash por el que quieras) */
+            background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.85)), url('https://unsplash.com') no-repeat center center/cover;
+            padding: 80px 20px;
+            text-align: center;
+            border-bottom: 3px solid var(--accent);
+        }
+        header h1 { color: var(--text-light); font-size: 2.8rem; text-transform: uppercase; letter-spacing: 2px; text-shadow: 2px 2px 8px rgba(0,0,0,0.7); }
+        header p { color: var(--accent); font-size: 1.2rem; margin-top: 10px; font-weight: bold; }
+        
+        /* CAMBIO DE NOMBRES EN EL MENÚ VISUAL */
+        nav {
+            background-color: var(--card-bg);
+            text-align: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid #222d44;
+        }
+        nav a {
+            color: var(--text-light);
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            transition: color 0.3s;
+        }
+        nav a:hover { color: var(--accent); }
+        
+        .container { max-width: 1000px; margin: 30px auto; padding: 0 20px; }
+        section { margin-bottom: 50px; scroll-margin-top: 80px; }
+        h2 { color: var(--accent); border-bottom: 2px solid #222d44; padding-bottom: 10px; margin-bottom: 20px; text-transform: uppercase; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card { background-color: var(--card-bg); padding: 20px; border-radius: 8px; border: 1px solid #222d44; }
+        .card h3 { color: var(--text-light); margin-bottom: 10px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 5px; }
+        ul { list-style-type: square; margin-left: 20px; }
+        li { margin-bottom: 8px; }
+        footer { text-align: center; padding: 30px; background-color: #070a10; border-top: 1px solid #222d44; margin-top: 50px; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ginga Sengoku Gun'yūden Rai</h1>
+        <p>Archivo Galáctico de Thunder Jet / Hazeem El Raad</p>
+    </header>
+
+    <!-- NOMBRES DE LOS MENÚS REORGANIZADOS -->
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#personajes">Personajes</a>
+        <a href="#anime">Guía de Anime</a>
+        <a href="#manga">Tomos del Manga</a>
+    </nav>
+
+    <div class="container">
+        <section id="inicio">
+            <h2>El Despertar de un Imperio Galáctico</h2>
+            <p>Bienvenido al rincón dedicado a la obra maestra de Johji Manabe. Una épica ópera espacial que mezcla la estrategia militar del Japón feudal (período Sengoku) con batallas campales entre flotas de naves imperiales en el cosmos. Sigue la historia de <strong>Rai Ryuga</strong> en su camino para unificar la galaxia.</p>
+        </section>
+
+        <section id="personajes">
+            <h2>Facciones y Personajes Clave</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Rai Ryuga (Thunder Jet)</h3>
+                    <p>Un joven y ambicioso soldado del Imperio de Gozo que asciende rápidamente gracias a su valentía, carisma y genio táctico.</p>
+                </div>
+                <div class="card">
+                    <h3>Shimen (Symphony)</h3>
+                    <p>La brillante estratega y consejera que acompaña a Rai. Su intelecto equilibra las decisiones impulsivas del protagonista.</p>
+                </div>
+                <div class="card">
+                    <h3>Rouhou</h3>
+                    <p>El eterno rival de Rai. Un guerrero formidable y comandante del Imperio del Sur con un estricto código de honor militar.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- NUEVA SECCIÓN DE ANIME -->
+        <section id="anime">
+            <h2>Guía del Anime (1994)</h2>
+            <div class="card">
+                <p>La adaptación animada cuenta con un total de <strong>52 episodios</strong> producidos por el estudio E&G Films. Aquí puedes listar tus episodios favoritos o reseñas:</p>
+                <br>
+                <ul>
+                    <li><strong>Episodio 1:</strong> Una estrella de guerra en la galaxia (El inicio del viaje de Rai).</li>
+                    <li><strong>Episodio 2:</strong> La caída de una fortaleza imperial.</li>
+                    <li><em>Próximamente más resúmenes de episodios...</em></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- NUEVA SECCIÓN DE MANGA -->
+        <section id="manga">
+            <h2>Tomos del Manga Original</h2>
+            <div class="card">
+                <p>El manga escrito e ilustrado por Johji Manabe consta de <strong>27 volúmenes tankōbon</strong> publicados originalmente por Media Works. Mezcla un nivel de detalle en las armaduras y naves espaciales espectacular.</p>
+                <br>
+                <ul>
+                    <li><strong>Saga de Gozo:</strong> Tomos 1 al 5.</li>
+                    <li><strong>Saga de la Unificación Galáctica:</strong> Tomos 6 en adelante.</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Archivo de Ginga Sengoku Gun'yūden Rai - Actualizado constantemente</p>
+    </footer>
+
+</body>
+</html>
